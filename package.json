@@ -1,0 +1,36 @@
+{
+  "name": "wine_brand",
+  "version": "1.0.0",
+  "description": "wine-store/\r │\r ├── server/\r │   ├── server.js\r │   ├── .env\r │   │\r │   ├── routes/\r │   │   └── auth.routes.js\r │   │\r │   ├── controllers/\r │   │   └── auth.controller.js\r │   │\r │   ├── services/\r │   │   └── otp.service.js\r │   │\r │   ├── middleware/\r │   │   └── auth.middleware.js\r │   │\r │   └── utils/\r │       └── otp.js\r │\r └── package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryansinger435-design/wine_brand.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/aryansinger435-design/wine_brand/issues"
+  },
+  "homepage": "https://github.com/aryansinger435-design/wine_brand#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.0",
+    "nodemailer": "^10.0.3",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
